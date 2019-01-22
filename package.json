@@ -1,0 +1,23 @@
+{
+  "name": "productlandingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-compile": "node-sass --output dist/css scss/style.scss",
+    "css-watch": "npm run css-compile && npm run css-compile -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maulikpkanani/productLandingPage.git"
+  },
+  "author": "Maulik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maulikpkanani/productLandingPage/issues"
+  },
+  "homepage": "https://github.com/maulikpkanani/productLandingPage#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
